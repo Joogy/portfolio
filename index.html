@@ -14,7 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome/css/all.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -24,28 +24,30 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
+    <link href="css/custom.css" rel="stylesheet">
+
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Hi! I'm Eli</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Hi! I'm <span class="highlight">Eli</span></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
-          <i class="fa fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#portfolio"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">My Projects</span></a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#about"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">About</span></a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#contact"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">Contact</span></a>
             </li>
           </ul>
         </div>
@@ -53,27 +55,27 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-white text-center position-sticky w-100">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Elijah Nikao Ignacio</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Wordpress Developer - Photographer</h2>
+        <div class="my-img m-auto" style="background-image:url('img/profile2.jpg') "></div>  
+        <h1 class="text-uppercase mt-5 mb-0">Elijah Nikao Ignacio</h1>
+        <hr class="hr-white">
+        <h2 class="font-weight-light mb-0">Wordpress Developer - Photographer</h2>
       </div>
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <section class="position-relative portfolio bg-white" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="text-center text-uppercase text-secondary mb-0">My Projects</h2>
+        <hr class="hr-primary">
         <div class="row">
 
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://jakobandsofie.com/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/jakobandsofie.png" alt="Jakob & Sofie">
@@ -83,7 +85,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="http://acis.com.ph/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/acis.png" alt="ACIS">
@@ -94,7 +96,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.maxicare.com.ph/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/maxicare.png" alt="Maxicare">
@@ -104,7 +106,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="http://compass.ph/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/compass.png" alt="Compass">
@@ -114,7 +116,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="http://www.wtcmanila.com.ph/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/wtc.png" alt="World Trade Center Metro Manila">
@@ -124,7 +126,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.watsons-property.co.uk/pay-online/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/watsons.png" alt="Watsons Property">
@@ -134,7 +136,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.silvertrophy.com/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/silvertrophy.png" alt="Silver Trophy Engraving">
@@ -144,7 +146,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://budgettaxisau.wpengine.com/booking-form/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/taxi.png" alt="Budget Taxi Booking">
@@ -154,7 +156,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://smoothdimensionsltd.co.uk/book-now/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/smooth.png" alt="Smooth Dimensions">
@@ -164,7 +166,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.stoddards.co.uk/fuel/fuel-calculator/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/stodd.png" alt="Stoddards Calculator">
@@ -174,7 +176,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://themortgageshop.net/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/mortgage.png" alt="Mortgage Calculator">
@@ -184,7 +186,7 @@
             <a class="portfolio-item d-block mx-auto" target="_blank" href="https://kundert.co.uk/personal-injury/calculator/">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/web/kundert.png" alt="Personal Injury Calculator">
@@ -195,33 +197,35 @@
     </section>
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="position-relative bg-notwhite mb-0 my-parallax text-white" style="background-image:url('img/assets/parallax.JPG')" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-12">
-            <p class="lead text-center">I am a team player. I work hand in hand with the production, and also can work on my own. I have a better understanding of what I am doing and engage with minimal supervision. With my experience, I have grasped a lot about my skills, nevertheless I am still eager to hone it to become better than myself.</p>
+        <div class="p-5 my-obg">
+          <h2 class="text-center text-uppercase">BIO</h2>
+          <hr class="hr-white">
+          <div class="row">
+            <div class="col-12">
+              <p class="lead text-center">I am a team player. I work hand in hand with the production, and also can work on my own. I have a better understanding of what I am doing and engage with minimal supervision. With my experience, I have grasped a lot about my skills, nevertheless I am still eager to hone it to become better than myself.</p>
+            </div>
           </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" target="_blank" href="https://drive.google.com/file/d/1QjrHMo5lIO-0jLSeOeGJAAc5g-0VRtc0/view?usp=sharing">
-            <i class="fa fa-download mr-2"></i>
-            Download Resume
-          </a>
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" target="_blank" href="https://drive.google.com/file/d/1QjrHMo5lIO-0jLSeOeGJAAc5g-0VRtc0/view?usp=sharing">
+              <i class="fas fa-download mr-2"></i>
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="position-relative bg-white">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <hr class="hr-primary">
         <div class="row">
           <div class="col text-center">
             <span class="btn btn-outline-dark btn-social text-center rounded-circle">
-              <i class="fa fa-fw fa-phone"></i>
+              <i class="fas fa-phone"></i>
             </span>
             <hr>
             <p>09162111537</p>
@@ -229,24 +233,24 @@
           </div>
           <div class="col text-center">
               <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:elijah.ignacio@outlook.com">
-                  <i class="fa fa-fw fa-envelope"></i>
+                  <i class="fas fa-paper-plane"></i>
               </a>
               <hr>
               <p>elijah.ignacio@outlook.com</p>
           </div>
           <div class="col text-center">
               <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.messenger.com/t/elijahignacio">
-                <i class="fa fa-fw fa-comments"></i>
+                <i class="fab fa-facebook-messenger"></i>
               </a>
               <hr>
-              <p>/elijahignacio</p>
+              <p>elijahignacio</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="bg-primary footer text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
@@ -257,174 +261,41 @@
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/elijahignacio">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
-              </li>
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/elijahignacio">
-                  <i class="fa fa-fw fa-twitter"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.facebook.com/elijahignacio">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119">
-                  <i class="fa fa-fw fa-linkedin"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://instagram.com/elijahnikao">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119">
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-md-4">
             <h4 class="text-uppercase mb-4">About My Work</h4>
-            <p class="lead mb-0">I am a wordpress developer, I create themes and plugins based on client needs.</p>
+            <p class="lead mb-0">I primarily work with plugins and adding custom functionalities to the website</p>
           </div>
         </div>
       </div>
     </footer>
 
-    <div class="copyright py-4 text-center text-white">
+    <div class="bg-primary copyright py-4 text-center text-white">
       <div class="container">
-        <small>Copyright &copy; Elijah Nikao Ignacio 2018</small>
+        <small>Copyright &copy; 2018</small>
       </div>
     </div>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-to-top d-lg-none position-fixed ">
       <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
       </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -439,8 +310,28 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <!-- Font Awesome -->
+    <script src="vendor/fontawesome/js/all.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <script>
+      (function(){
+        $(window).scroll(function(){
+          var currentOffset = $(this).scrollTop();      
+          var targetOffset = $( ".masthead" ).height();     
+          console.log(targetOffset);
+          if(currentOffset > targetOffset){
+            if(!$('.footer').hasClass('position-sticky')){
+              $('.footer').addClass('position-sticky');  
+            }
+          }else{
+            $('.footer').removeClass('position-sticky');
+          }
+        });
+      })(jQuery);
+    </script>
 
   </body>
 
