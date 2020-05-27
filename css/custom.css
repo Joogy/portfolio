@@ -92,7 +92,7 @@ section{
 
 .my-parallax{
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -102,7 +102,7 @@ section{
 }
 
 .my-obg{
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.7);
 }
 
 a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
@@ -162,4 +162,19 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 		font-size: 3.75rem!important;
 		line-height: 4rem!important;
 	}
+}
+
+header{
+	background-image: url('../img/assets/mylogoopacwhttrs10.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p > a{color:inherit;}
+p > a:hover{color:#c165fb;text-decoration: none;}
+
+.btn-outline-light:not(:disabled):not(.disabled):focus {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
