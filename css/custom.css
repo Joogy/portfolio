@@ -101,6 +101,11 @@ section{
     background-color: rgba(193,101,251,.9);
 }
 
+.portfolio-web-img{
+	width:auto;
+	object-fit:cover;
+}
+
 .my-obg{
 	background: rgba(0,0,0,0.7);
 }
