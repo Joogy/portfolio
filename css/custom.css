@@ -97,12 +97,16 @@ section{
 	background-attachment: fixed;
 }
 
+.portfolio .portfolio-item{
+	margin-bottom:24px!important;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
     background-color: rgba(193,101,251,.9);
 }
 
 .portfolio-web-img{
-	width:auto;
+	width:100%;
 	object-fit:cover;
 }
 
