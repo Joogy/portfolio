@@ -5,342 +5,254 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Elijah Nikao Ignacio — Full-Stack Developer portfolio">
+    <meta name="author" content="Elijah Nikao Ignacio">
 
     <title>Elijah Nikao Ignacio | Portfolio</title>
     <link rel="icon" type="image/png" href="img/assets/favicon.png" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome/css/all.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/style.css?v=21" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top text-uppercase" id="mainNav">
+    <nav class="site-nav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Hi! I'm <span class="highlight">Eli</span></a>
-        <button class="__transition mobile-nav navbar-toggler navbar-toggler-right text-uppercase text-white" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-ellipsis-h"></i>
+        <a class="brand" href="#page-top">Hi, I'm <span>Eli</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="__transition nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#portfolio"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">My Work</span></a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="__transition nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#about"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">Bio</span></a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="__transition nav-link py-3 px-0 px-lg-3 js-scroll-trigger position-relative" href="#contact"><div class="__transition menu-highlight position-absolute"></div><span class="position-relative py-4 d-block">Contact</span></a>
-            </li>
-          </ul>
-        </div>
+        <ul class="nav-links">
+          <li><a href="#toolkit">Toolkit</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">Bio</a></li>
+        </ul>
+        <a class="btn nav-cta glow glow-dark" href="#contact">Hire Me</a>
       </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center position-sticky w-100">
+    <!-- Hero -->
+    <header class="hero">
       <div class="container">
-        <div class="my-img m-auto" style="background-image:url('img/profile6.jpg') "></div>  
-        <h1 class="text-uppercase mt-4 mt-md-5 mb-3 mb-md-4">Elijah Nikao Ignacio</h1>
-        <h2 class="font-weight-light mb-0 opac-70">Senior Wordpress Developer</small></h2>
+        <div class="hero-bento">
+
+          <div class="b-card b-headline">
+            <p class="eyebrow">Full-Stack Developer</p>
+            <h1>Elijah Nikao<br>Ignacio</h1>
+            <svg class="squiggle" width="120" height="16" viewBox="0 0 120 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M2 8C10 2 18 2 26 8C34 14 42 14 50 8C58 2 66 2 74 8C82 14 90 14 98 8C106 2 114 2 118 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+            <div class="hero-actions">
+              <a class="btn btn-solid glow glow-dark" href="#work">See my work</a>
+              <a class="btn btn-outline glow" href="#contact">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="b-card b-photo">
+            <div class="hero-photo" style="background-image:url('img/profile-main.jpg')"></div>
+          </div>
+
+          <div class="b-card b-bio">
+            <div>
+              <p class="eyebrow">About</p>
+              <p>I work hand-in-hand with production teams — or solo — building web apps, API integrations, and AI-powered tools with minimal supervision.</p>
+            </div>
+            <ul class="hero-social">
+              <li><a target="_blank" href="https://www.facebook.com/elijahignacio" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a target="_blank" href="https://instagram.com/elijahnikao" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="b-card b-stats">
+            <div class="stat-block">
+              <strong>11+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat-block">
+              <strong>20+</strong>
+              <span>Sites Shipped</span>
+            </div>
+          </div>
+
+          <div class="b-card b-skills">
+            <span class="tag-pill coral">WordPress</span>
+            <span class="tag-pill slate">JavaScript</span>
+            <span class="tag-pill teal">API</span>
+            <span class="tag-pill slate">CLI</span>
+            <span class="tag-pill amber">Python</span>
+            <span class="tag-pill ink">Claude AI</span>
+          </div>
+
+          <div class="b-card b-cta glow glow-dark">
+            <div>
+              <p class="eyebrow">Hire Me</p>
+              <h3>Malolos City, Philippines</h3>
+              <div class="b-cta-info">
+                <a href="tel:+639206707262">09206707262</a>
+                <a href="mailto:elijah.ignacio@outlook.com">elijah.ignacio@outlook.com</a>
+              </div>
+            </div>
+            <a class="btn btn-solid glow" href="#contact">Get in touch</a>
+          </div>
+
+        </div>
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="position-relative portfolio bg-white" id="portfolio">
+    <!-- Toolkit Section -->
+    <section id="toolkit">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-3">My Work</h2>
-        <h4 class="font-weight-light mb-0 opac-70 text-center mb-5">Sites / Plugins</h4>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://kirinari.com.au/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Kirinari
-                  <br><span style="font-size:14px; font-weight:300;">NDIS</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/kirinari.png" alt="Kirinari" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://surewayhealthwellbeing.com.au/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Sureway Health & Wellbeing
-                  <br><span style="font-size:14px; font-weight:300;">NDIS</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/sureway.png" alt="NDIS" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://personnelgroup.com.au/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Personnel Group
-                  <br><span style="font-size:14px; font-weight:300;">NDIS</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/tpg.png" alt="NDIS" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://raceon.com/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  RaceON
-                  <br><span style="font-size:14px; font-weight:300;">Racing</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/racon.png" alt="Racing" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.siinda.org/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Siinda
-                  <br><span style="font-size:14px; font-weight:300;">Membership Events</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/siinda.png" alt="Membership Events" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://secondpage.com.au/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Second Page
-                  <br><span style="font-size:14px; font-weight:300;">Business Directory</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/secondpage.png" alt="Business Directory" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="http://compass.ph/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Compass
-                  <br><span style="font-size:14px; font-weight:300;">Online Certification</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/compass.png" alt="Compass" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://smoothdimensionsltd.co.uk/book-now/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Smooth Dimensions
-                  <br><span style="font-size:14px; font-weight:300;">Online Booking</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/smooth.png" alt="Smooth Dimensions" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.stoddards.co.uk/fuel/fuel-calculator/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Stoddards
-                  <br><span style="font-size:14px; font-weight:300;">Fuel Calculator</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/stodd.png" alt="Stoddards Calculator" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://themortgageshop.net/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  The Mortgage Shop
-                  <br><span style="font-size:14px; font-weight:300;">Mortgage Calculator</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/mortgage.png" alt="Mortgage Calculator" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://kundert.co.uk/personal-injury/calculator/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Kundert
-                  <br><span style="font-size:14px; font-weight:300;">Personal Injury Calculator</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/kundert.png" alt="Personal Injury Calculator" width="350" height="200">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://www.dachdecker-westfalen.de/">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  Dachdeckerverband
-                  <br><span style="font-size:14px; font-weight:300;">Appointments Calendar</span>
-                </div>
-              </div>
-              <img class="portfolio-web-img" src="img/web/dachdecker-westfalen.png" alt="Appointments Calendar" width="350" height="200">
-            </a>
-          </div>
+        <div class="section-head">
+          <p class="eyebrow" style="justify-content:center;">My Advantage</p>
+          <h2>Toolkit</h2>
+          <p>What I build with, day to day</p>
+        </div>
+        <div class="toolkit-grid">
+          <div class="tool-badge"><i class="fab fa-wordpress-simple"></i><span>WordPress</span></div>
+          <div class="tool-badge"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          <div class="tool-badge"><i class="fas fa-plug"></i><span>API</span></div>
+          <div class="tool-badge"><i class="fas fa-terminal"></i><span>CLI</span></div>
+          <div class="tool-badge"><i class="fab fa-python"></i><span>Python</span></div>
+          <div class="tool-badge"><i class="fas fa-robot"></i><span>Claude AI</span></div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="position-relative bg-notwhite mb-0 my-parallax text-white" style="background-image:url('img/assets/parallax5.JPG')" id="about">
+    <!-- How I Work Section -->
+    <section class="work">
       <div class="container">
-        <div class="p-5 my-obg">
-          <h2 class="text-center text-uppercase mb-3">BIO</h2>
-          <h4 class="font-weight-light mb-0 opac-70 text-center mb-4">About Me</h4>
-          <div class="row">
-            <div class="col-12">
-              <p class="lead text-center">I am a team player. I work hand in hand with the production, and also can work on my own. I have a better understanding of what I am doing and engage with minimal supervision. With my experience, I have grasped a lot about my skills, nevertheless I am still eager to hone it to become better than myself.</p>
+        <div class="section-head">
+          <p class="eyebrow" style="justify-content:center;">Process</p>
+          <h2>How I Work</h2>
+          <p>The short version of how a project usually goes</p>
+        </div>
+        <div class="process-list">
+          <div class="process-row">
+            <span class="process-num">01</span>
+            <div class="process-body">
+              <h3 class="process-title"><span class="process-title-text">Scope &amp; plan</span><span class="process-squiggle-wrap"><svg class="process-squiggle" width="44" height="12" viewBox="0 0 44 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1 6C4.5 2 8 2 11 6C14 10 17.5 10 21 6C24.5 2 28 2 31.5 6C35 10 38.5 10 42 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></h3>
+              <p>Understand the goal, and whether it needs a custom build, an integration, or something in between.</p>
             </div>
           </div>
-          <div class="text-center mt-4">
-            <a class="btn btn-xl btn-outline-light" target="_blank" href="https://drive.google.com/file/d/1EzVahLplHjabbE3_JJ64fuRzpvB2pu6P/view?usp=sharing">
-              <i class="fas fa-file-download"></i>
-              <span class="ml-2">Résumé</span>
-            </a>
+          <div class="process-row">
+            <span class="process-num">02</span>
+            <div class="process-body">
+              <h3 class="process-title"><span class="process-title-text">Build &amp; iterate</span><span class="process-squiggle-wrap"><svg class="process-squiggle" width="44" height="12" viewBox="0 0 44 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1 6C4.5 2 8 2 11 6C14 10 17.5 10 21 6C24.5 2 28 2 31.5 6C35 10 38.5 10 42 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></h3>
+              <p>Custom builds, API integrations, and AI tooling, checked in against real usage as I go.</p>
+            </div>
+          </div>
+          <div class="process-row">
+            <span class="process-num">03</span>
+            <div class="process-body">
+              <h3 class="process-title"><span class="process-title-text">Ship &amp; support</span><span class="process-squiggle-wrap"><svg class="process-squiggle" width="44" height="12" viewBox="0 0 44 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1 6C4.5 2 8 2 11 6C14 10 17.5 10 21 6C24.5 2 28 2 31.5 6C35 10 38.5 10 42 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></h3>
+              <p>Hand it off working — hand-in-hand with a production team, or solo with minimal supervision.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative bg-white">
+    <!-- Portfolio Grid Section -->
+    <section id="work">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-3">Contact Me</h2>
-        <h4 class="font-weight-light mb-0 opac-70 text-center mb-5">Get in Touch</h4>
-        <div class="row">
-          <div class="col text-center">
-            <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="tel:+639206707262">
-              <i class="fas fa-phone"></i>
-            </a>
-            <hr>
-            <p><a href="tel:+639206707262" class="__transition">09206707262</a></p>
-
-          </div>
-          <div class="col text-center">
-              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="mailto:elijah.ignacio@outlook.com">
-                  <i class="fas fa-paper-plane"></i>
-              </a>
-              <hr>
-              <p><a href="mailto:elijah.ignacio@outlook.com" class="__transition">elijah.ignacio@outlook.com</a></p>
-          </div>
-          <div class="col text-center">
-              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119/">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <hr>
-              <p><a href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119/" class="__transition">Elijah Nikao Ignacio</a></p>
-          </div>
+        <div class="section-head">
+          <p class="eyebrow" style="justify-content:center;">Recent Work</p>
+          <h2>My Work</h2>
+          <p>Sites, tools &amp; integrations I've built or contributed to</p>
         </div>
+        <div class="work-grid">
+          <a class="work-card wide" target="_blank" href="https://ssaclub.com.au/" data-cursor-label="SS&amp;A Albury">
+            <img src="img/web/ssaclub-featured.webp" alt="SS&amp;A Albury" loading="lazy">
+          </a>
+          <a class="work-card" target="_blank" href="https://murrayarts.org.au/" data-cursor-label="Murray Arts">
+            <img src="img/web/murrayarts-featured.jpeg" alt="Murray Arts" loading="lazy">
+          </a>
+          <a class="work-card" target="_blank" href="https://directory.murrayarts.org.au/" data-cursor-label="Murray Arts Directory">
+            <img src="img/web/murrayarts-directory-featured.jpg" alt="Murray Arts Directory" loading="lazy">
+          </a>
+          <a class="work-card tall" target="_blank" href="https://circularconnect.au/" data-cursor-label="Circular Connect">
+            <img src="img/web/circularconnect-featured.jpg" alt="Circular Connect" loading="lazy">
+          </a>
+          <a class="work-card" target="_blank" href="https://mrnsheds.com.au/" data-cursor-label="MRN Sheds">
+            <img src="img/web/mrnsheds-featured.jpg" alt="MRN Sheds" loading="lazy">
+          </a>
+          <a class="work-card" target="_blank" href="https://explorephysio.com.au/" data-cursor-label="Explore Physio">
+            <img src="img/web/explorephysio-featured.jpg" alt="Explore Physio" loading="lazy">
+          </a>
+          <a class="work-card wide" target="_blank" href="https://surewayskillstraining.com.au/" data-cursor-label="Sureway Skills Training">
+            <img src="img/web/surewayskillstraining-featured.jpg" alt="Sureway Skills Training" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section class="work" id="about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" style="justify-content:center;">Bio</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="bio-grid">
+          <div class="b-card bio-quote">
+            <p class="eyebrow">Who I am</p>
+            <p class="quote">"I started out as a software developer, then spent years building out WordPress sites — and more recently, that's grown into API integrations and AI-powered tooling. I work well as part of a production team, but I'm just as comfortable running a project solo. Either way, I care more about shipping something that works than talking about it."</p>
+            <a class="btn btn-outline glow" target="_blank" href="https://drive.google.com/file/d/1UMjgp0d7IkRVKDI5TAWHXhVy4grhnf3o/view?usp=sharing">
+              <i class="fas fa-file-download"></i>
+              <span>Résumé</span>
+            </a>
+          </div>
+          <div class="b-card bio-photo" style="background-image:url('img/profile-bio.jpg')"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="cta-banner glow glow-dark" id="contact">
+      <div class="container">
+        <p class="eyebrow">Hire Me</p>
+        <h2>Let's build something<br>great together</h2>
+        <p>Available for web development, API integrations, and AI tooling projects, based in Malolos City, Philippines.</p>
+        <div class="cta-actions">
+          <a class="btn btn-invert-solid glow" href="mailto:elijah.ignacio@outlook.com">elijah.ignacio@outlook.com</a>
+          <a class="btn btn-invert glow glow-dark" href="tel:+639206707262">09206707262</a>
+        </div>
+        <ul class="cta-social">
+          <li><a target="_blank" href="https://www.facebook.com/elijahignacio" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a target="_blank" href="https://instagram.com/elijahnikao" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-primary footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Tikay Malolos City 3000</p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.facebook.com/elijahignacio">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://instagram.com/elijahnikao">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/elijah-nikao-ignacio-051aa9119">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About My Work</h4>
-            <p class="lead mb-0">I primarily work with plugins and adding custom functionalities to the website</p>
-          </div>
-        </div>
+    <footer class="site-footer glow glow-dark">
+      <div class="container footer-row">
+        <a class="brand" href="#page-top">Hi, I'm <span>Eli</span></a>
+        <ul class="footer-nav">
+          <li><a href="#toolkit">Toolkit</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">Bio</a></li>
+        </ul>
+        <span>&copy; 2018&ndash;2026 Elijah Nikao Ignacio</span>
       </div>
     </footer>
 
-    <div class="bg-primary copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; 2018</small>
-      </div>
-    </div>
+    <a class="to-top" href="#page-top" aria-label="Scroll to top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fas fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Font Awesome -->
     <script src="vendor/fontawesome/js/all.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-    <script>
-      (function(){
-        $(window).scroll(function(){
-          var currentOffset = $(this).scrollTop();      
-          var targetOffset = $( ".masthead" ).height();     
-          console.log(targetOffset);
-          if(currentOffset > targetOffset){
-            if(!$('.footer').hasClass('position-sticky')){
-              $('.footer').addClass('position-sticky');  
-            }
-          }else{
-            $('.footer').removeClass('position-sticky');
-          }
-        });
-      })(jQuery);
-    </script>
+    <script src="js/main.js?v=6"></script>
 
   </body>
 
